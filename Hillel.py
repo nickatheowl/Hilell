@@ -48,3 +48,12 @@ def move_last_to_front(lst): #Урок3.2
 
 print(move_last_to_front([12, 3, 4, 10]))
 print(move_last_to_front([12, 3, 4, 10, 8]))
+
+
+def split_list(lst): #Урок 3.3
+    mid = (len(lst) + 1) // 2
+    return [lst[:mid], lst[mid:]]
+
+print(split_list([1, 2, 3, 4, 5, 6]))
+print(split_list([1, 2, 3]))
+print(split_list([1, 2, 3, 4, 5]))
