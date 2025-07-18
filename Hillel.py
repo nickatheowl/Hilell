@@ -40,20 +40,7 @@ elif operation == '/':
 else:
     print("Невідома операція!")
 
+first_list = [1, 2, 3, 4, 5, 6]   #Урок3.2
+first_list = first_list[-1:] + first_list[:-1]
 
-def move_last_to_front(lst): #Урок3.2
-    if len(lst) <= 1:
-        return lst
-    return [lst[-1]] + lst[:-1]
-
-print(move_last_to_front([12, 3, 4, 10]))
-print(move_last_to_front([12, 3, 4, 10, 8]))
-
-
-def split_list(lst): #Урок 3.3
-    mid = (len(lst) + 1) // 2
-    return [lst[:mid], lst[mid:]]
-
-print(split_list([1, 2, 3, 4, 5, 6]))
-print(split_list([1, 2, 3]))
-print(split_list([1, 2, 3, 4, 5]))
+print(first_list)
