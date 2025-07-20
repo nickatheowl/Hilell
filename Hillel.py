@@ -19,7 +19,7 @@ d5 = number % 10
 reversed_number = d5 * 10000 + d4 * 1000 + d3 * 100 + d2 * 10 + d1
 print(reversed_number)
 
-num1 = float(input("Введіть перше число: "))  #Урок3.1
+num1 = float(input("Введіть перше число:"))  #Урок3.1
 operation = input("Введіть операцію (+, -, *, /): ")
 num2 = float(input("Введіть друге число: "))
 if operation == '+':
@@ -53,3 +53,11 @@ print(result)
 first_list = [2, 4, 7, 11, 0, -2, 8]
 new_list = [first_list[:4], first_list[4:]]
 print(new_list)
+
+first_list = [0, 1, 0, 12, 3]   #Урок4.1
+first_list[:] = [x for x in first_list if x != 0] + [0] * first_list.count(0)
+print(first_list)
+#або
+first_list = [0, 1, 0, 12, 3]
+first_list[:] = list(filter(lambda n: n != 0, first_list)) + [0] * first_list.count(0)
+print(first_list)
