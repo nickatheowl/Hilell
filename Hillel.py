@@ -61,3 +61,21 @@ print(first_list)
 first_list = [0, 1, 0, 12, 3]
 first_list[:] = list(filter(lambda n: n != 0, first_list)) + [0] * first_list.count(0)
 print(first_list)
+
+lst = [1, 3, 5] #Урок4.2
+i = 0
+s = 0
+while i < len(lst):
+    s = s + lst[i]
+    i = i + 2
+result = s * lst[-1] if lst else 0
+print(result)
+
+lst = []
+i = 0
+s = 0
+while i < len(lst):
+    s = s + lst[i]
+    i = i + 2
+result = s * lst[-1] if lst else 0
+print(result)
