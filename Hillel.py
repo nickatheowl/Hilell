@@ -79,3 +79,8 @@ while i < len(lst):
     i = i + 2
 result = s * lst[-1] if lst else 0
 print(result)
+
+import random #Урок 4.3
+lst = [random.randint(1, 9) for _ in range(random.randint(3, 10))]
+new_lst = [lst[0], lst[2], lst[-2]]
+print(new_lst)
