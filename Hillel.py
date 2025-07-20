@@ -40,7 +40,6 @@ elif operation == '/':
 else:
     print("Невідома операція!")
 
-
 first_list = [1, 2, 3, 4, 5, 6]  #Урок3.2
 first_list = first_list[-1:] + first_list[:-1]
 print(first_list)
@@ -54,7 +53,7 @@ first_list = [2, 4, 7, 11, 0, -2, 8]
 new_list = [first_list[:4], first_list[4:]]
 print(new_list)
 
-first_list = [0, 1, 0, 12, 3]   #Урок4.1
+first_list = [0, 1, 0, 12, 3]  #Урок4.1
 first_list[:] = [x for x in first_list if x != 0] + [0] * first_list.count(0)
 print(first_list)
 #або
@@ -62,7 +61,7 @@ first_list = [0, 1, 0, 12, 3]
 first_list[:] = list(filter(lambda n: n != 0, first_list)) + [0] * first_list.count(0)
 print(first_list)
 
-lst = [1, 3, 5] #Урок4.2
+lst = [1, 3, 5]  #Урок4.2
 i = 0
 s = 0
 while i < len(lst):
@@ -80,7 +79,25 @@ while i < len(lst):
 result = s * lst[-1] if lst else 0
 print(result)
 
-import random #Урок 4.3
+import random  #Урок 4.3
 lst = [random.randint(1, 9) for _ in range(random.randint(3, 10))]
 new_lst = [lst[0], lst[2], lst[-2]]
 print(new_lst)
+
+import string #Урок 5.1
+import keyword
+
+my_string = input("I like pizza")
+
+print(my_string)
+print(type(my_string))
+
+print(
+    (my_string != '') and
+    (not my_string[0].isdigit()) and
+    (my_string == my_string.lower()) and
+    (all((c not in string.punctuation or c == '_') and not c.isspace() for c in my_string)) and
+    (my_string not in keyword.kwlist) and
+    (my_string.count('_') <= 1) and
+    (not (set(my_string) == {'_'} and len(my_string) > 1))
+)
