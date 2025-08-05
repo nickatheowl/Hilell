@@ -164,3 +164,30 @@ end_index = letters.index(end)
 result = letters[start_index:end_index + 1]
 
 print(result)
+
+
+# Урок 6.2 - Конвертер із числа в дату
+seconds = int(input("Введіть кількість секунд: "))
+
+if 0 <= seconds < 8640000:
+    days = seconds // (24 * 60 * 60)
+    remainder = seconds % (24 * 60 * 60)
+
+    hours = remainder // (60 * 60)
+    remainder = remainder % (60 * 60)
+
+    minutes = remainder // 60
+    sec = remainder % 60
+
+    if 11 <= days % 100 <= 14:
+        day_str = "днів"
+    elif days % 10 == 1:
+        day_str = "день"
+    elif 2 <= days % 10 <= 4:
+        day_str = "дні"
+    else:
+        day_str = "днів"
+
+    print(f"{days} {day_str}, {str(hours).zfill(2)}:{str(minutes).zfill(2)}:{str(sec).zfill(2)}")
+else:
+    print("Число повинно бути в діапазоні від 0 до 8639999")
