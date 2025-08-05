@@ -4,6 +4,7 @@ def hello_user(name: str, age: int) -> str:
 
 print(hello_user("Veronika", 32))
 
+
 # Урок 7.2 -  Модифікувати рядок
 def correct_sentence(text):
     text = text.strip()
