@@ -1,9 +1,9 @@
 # Урок 7.1 -  Вітання
-def hello_user(name, age):
+def hello_user(name: str, age: int) -> str:
     return f"Hi. My name is {name} and I'm {age} years old"
 
-
 print(hello_user("Veronika", 32))
+
 
 
 # Урок 7.2 -  Модифікувати рядок
