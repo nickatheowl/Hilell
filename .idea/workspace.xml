@@ -249,7 +249,23 @@
       <option name="project" value="LOCAL" />
       <updated>1754406120559</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="first change to document">
+      <option name="closed" value="true" />
+      <created>1754406476984</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1754406476984</updated>
+    </task>
+    <task id="LOCAL-00017" summary="first change to document">
+      <option name="closed" value="true" />
+      <created>1754406815976</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1754406815976</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
