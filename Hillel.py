@@ -191,3 +191,16 @@ if 0 <= seconds < 8640000:
     print(f"{days} {day_str}, {str(hours).zfill(2)}:{str(minutes).zfill(2)}:{str(sec).zfill(2)}")
 else:
     print("Число повинно бути в діапазоні від 0 до 8639999")
+
+# Урок 6.3 - Добуток чисел
+
+num = input("Введіть ціле число: ")
+num_int = int(num)
+
+while num_int > 9:
+    product = 1
+    for digit in str(num_int):
+        product *= int(digit)
+    num_int = product
+
+print(num_int)
