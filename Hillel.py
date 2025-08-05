@@ -133,3 +133,17 @@ while True:
     if again != 'y' and again != 'yes':
         print("Калькулятор завершив роботу.")
         break
+
+
+# Урок 5.3 - Хештег
+import string
+
+text = "i like coffee"
+
+cleaned = ''.join(c for c in text if c not in string.punctuation)
+words = cleaned.split()
+capitalized_words = [word.capitalize() for word in words]
+hashtag = '#' + ''.join(capitalized_words)
+hashtag = hashtag[:140]
+
+print(hashtag)
