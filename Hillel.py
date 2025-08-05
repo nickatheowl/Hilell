@@ -105,3 +105,31 @@ print(
         for c in my_string
     )
 )
+# Урок 5.2 - Модіфікований калькулятор
+while True:
+    num1 = float(input("Введіть перше число: "))
+    operation = input("Введіть операцію (+, -, *, /): ")
+    num2 = float(input("Введіть друге число: "))
+
+    if operation == '+':
+        result = num1 + num2
+        print("Результат:", result)
+    elif operation == '-':
+        result = num1 - num2
+        print("Результат:", result)
+    elif operation == '*':
+        result = num1 * num2
+        print("Результат:", result)
+    elif operation == '/':
+        if num2 == 0:
+            print("Помилка: Ділення на нуль!")
+        else:
+            result = num1 / num2
+            print("Результат:", result)
+    else:
+        print("Невідома операція!")
+
+    again = input("Бажаєте продовжити? (y/yes): ").lower()
+    if again != 'y' and again != 'yes':
+        print("Калькулятор завершив роботу.")
+        break
