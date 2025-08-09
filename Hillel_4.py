@@ -30,3 +30,14 @@ assert first_word(".., and so on ...") == "and", 'Test4'
 assert first_word("hi") == "hi", 'Test5'
 assert first_word("Hello.World") == "Hello", 'Test6'
 print('OK')
+
+#Урок 10.3. Перевірити чи є парним чи ні
+
+def is_even(digit: int) -> bool:
+    """ Перевірка чи є парним число """
+    return digit % 2 == 0
+
+assert is_even(2) == True, 'Test1'
+assert is_even(5) == False, 'Test2'
+assert is_even(0) == True, 'Test3'
+print('OK')
