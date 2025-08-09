@@ -35,3 +35,19 @@ assert find_unique_value([1, 2, 1, 1]) == 2, 'Test1'
 assert find_unique_value([2, 3, 3, 3, 5, 5]) == 2, 'Test2'
 assert find_unique_value([5, 5, 5, 2, 2, 0.5]) == 0.5, 'Test3'
 print("ОК")
+
+
+#Урок 9.1. Визначити популярність певних слів у тексті
+
+def popular_words(text, words):
+    text_lower = text.lower().split()
+    result = {}
+    for word in words:
+        result[word] = text_lower.count(word)
+    return result
+
+assert popular_words(
+    '''Жабки стрибали по листочках, жабки співали під місяцем, жабки мріяли про літа. Жабка стрибала з кумедним дзвінким кваканням!''',
+    ['жабки', 'місяцем', 'літа', 'жабка']
+) == {'жабки': 3, 'місяцем': 1, 'літа': 1, 'жабка': 1}, 'Test1'
+print('OK')
