@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="007ec29a-f40c-4866-b0a8-894367f8fccd" name="Changes" comment="Урок 7.3 -  Пошук підрядка" />
+    <list default="true" id="007ec29a-f40c-4866-b0a8-894367f8fccd" name="Changes" comment="#Урок 7.4. - Пошук спільних елементів">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hillel_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_3.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +81,7 @@
       <recent name="C:\Users\Nika\Desktop\Python Courses Hillel\Python Basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Hillel_2">
+  <component name="RunManager">
     <configuration name="Hillel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Basics" />
       <option name="ENV_FILES" value="" />
@@ -382,7 +385,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754754024169</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="#Урок 7.4. - Пошук спільних елементів">
+      <option name="closed" value="true" />
+      <created>1754754049599</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1754754049599</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +405,8 @@
     <MESSAGE value="fixed datatypes in line 2" />
     <MESSAGE value="added types of data in line 2" />
     <MESSAGE value="Урок 7.3 -  Пошук підрядка" />
-    <option name="LAST_COMMIT_MESSAGE" value="Урок 7.3 -  Пошук підрядка" />
+    <MESSAGE value="#Урок 7.4. - Пошук спільних елементів" />
+    <option name="LAST_COMMIT_MESSAGE" value="#Урок 7.4. - Пошук спільних елементів" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_Basics$Hillel2.coverage" NAME="Hillel2 Coverage Results" MODIFIED="1750690980654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
