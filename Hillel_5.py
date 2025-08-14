@@ -66,6 +66,67 @@ def delete_html_tags(html_file, result_file='cleaned.txt'):
     with codecs.open(result_file, 'w', 'utf-8') as file:
         file.write('\n'.join(cleaned_lines))
 
-
 # Приклад:
 delete_html_tags('draft.html', 'cleaned.txt')
+
+
+#Урок 12.2 - Корзина для покупок
+class Item:
+    def __init__(self, name, price, description, dimensions):
+        self.price = price
+        self.description = description
+        self.dimensions = dimensions
+        self.name = name
+
+    def __str__(self):
+        return f"{self.name}, price: {self.price}"
+
+
+class User:
+    def __init__(self, name, surname, numberphone):
+        self.name = name
+        self.surname = surname
+        self.numberphone = numberphone
+
+    def __str__(self):
+        return f"{self.name} {self.surname}"
+
+
+class Purchase:
+    def __init__(self, user):
+        self.products = {}  # {Item: count}
+        self.user = user
+
+    def add_item(self, item, cnt):
+        if item in self.products:
+            self.products[item] += cnt
+        else:
+            self.products[item] = cnt
+
+    def __str__(self):
+        items_str = "\n".join(f"{item.name}: {count} pcs."
+                              for item, count in self.products.items())
+        return f"User: {self.user}\nItems:\n{items_str}"
+
+    def get_total(self):
+        return sum(item.price * count for item, count in self.products.items())
+
+
+# Приклад
+lemon = Item('lemon', 5, "yellow", "small")
+apple = Item('apple', 2, "red", "middle")
+
+print(lemon)  # lemon, price: 5
+
+buyer = User("Ivan", "Ivanov", "02628162")
+print(buyer)  # Ivan Ivanov
+
+cart = Purchase(buyer)
+cart.add_item(lemon, 4)
+cart.add_item(apple, 20)
+print(cart)
+print("Total:", cart.get_total())  # 60
+
+cart.add_item(apple, 10)  # тепер 20 + 10 = 30
+print(cart)
+print("Total:", cart.get_total())  # 80
