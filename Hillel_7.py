@@ -62,3 +62,4 @@ try:
     gr.add_student(extra_student)
 except GroupFullError as e:
     print(f"Error: {e}")
+
