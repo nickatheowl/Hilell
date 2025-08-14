@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="007ec29a-f40c-4866-b0a8-894367f8fccd" name="Changes" comment="Урок 14.1">
-      <change beforePath="$PROJECT_DIR$/Hillel_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hillel_7.py" afterDir="false" />
+    <list default="true" id="007ec29a-f40c-4866-b0a8-894367f8fccd" name="Changes" comment="Урок 14.2">
+      <change afterPath="$PROJECT_DIR$/Hillel_8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -553,7 +554,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755191488156</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Урок 14.2">
+      <option name="closed" value="true" />
+      <created>1755191678493</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1755191678493</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,7 +591,8 @@
     <MESSAGE value="Урок 13.1" />
     <MESSAGE value="Урок 13.2" />
     <MESSAGE value="Урок 14.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Урок 14.1" />
+    <MESSAGE value="Урок 14.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Урок 14.2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_Basics$Hillel2.coverage" NAME="Hillel2 Coverage Results" MODIFIED="1750690980654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
