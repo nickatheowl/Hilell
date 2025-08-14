@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="007ec29a-f40c-4866-b0a8-894367f8fccd" name="Changes" comment="Урок 12.2">
-      <change afterPath="$PROJECT_DIR$/Hillel_6.py" afterDir="false" />
+    <list default="true" id="007ec29a-f40c-4866-b0a8-894367f8fccd" name="Changes" comment="Урок 13.2">
+      <change afterPath="$PROJECT_DIR$/Hillel_7.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -522,7 +522,23 @@
       <option name="project" value="LOCAL" />
       <updated>1755189741441</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Урок 13.1">
+      <option name="closed" value="true" />
+      <created>1755190679413</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1755190679413</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Урок 13.2">
+      <option name="closed" value="true" />
+      <created>1755190862978</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1755190862978</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,7 +564,9 @@
     <MESSAGE value="#Урок 11.3" />
     <MESSAGE value="Урок 12.1" />
     <MESSAGE value="Урок 12.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Урок 12.2" />
+    <MESSAGE value="Урок 13.1" />
+    <MESSAGE value="Урок 13.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Урок 13.2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_Basics$Hillel2.coverage" NAME="Hillel2 Coverage Results" MODIFIED="1750690980654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
